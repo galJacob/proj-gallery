@@ -1,0 +1,67 @@
+body{
+    /* background: url(/img/wallpaper.png); */
+    /* background */
+    background-size: 100%;
+}
+td{
+    width: 30px;
+    height:30px;
+    border:4px double rgb(48, 131, 48);
+}
+img{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    animation: appear 2s;
+    background-color: aqua;
+    border-radius: 10px;
+    /* background-color: white; */
+}
+@keyframes appear{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+h1:not(span){
+    text-align: center; 
+    margin-bottom: 100px;
+ font-family: fantasy;
+ color: cyan;   
+ animation-name: rotate;
+ animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+/* @keyframes rotate{
+    0%{
+transform: rotate(0deg);
+    }
+    100%{
+transform: rotate(360deg);
+    }
+} */
+h1 span{
+    position: relative;
+    /* top:50px; */
+    animation-name: lifemove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes lifemove{
+    0%{
+top: 0;
+    }
+    50%{
+        top:60px;
+        color: rgb(48, 131, 48);
+    }
+    100%{
+        top: 0px;
+    }
+}

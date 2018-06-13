@@ -1,0 +1,108 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.shown {
+  position: fixed;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: red;
+  animation-name: showModal;
+  animation-duration: 4s;
+}
+.victoryModal{
+  position: fixed;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color:green;
+  animation-name: showModal;
+  animation-duration: 4s;
+}
+@keyframes showModal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  bottom: 40%;
+  background-color: darkblue;
+  animation-name: bannerSlide;
+  animation-duration: 2s;
+}
+
+.victoryBanner{
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  bottom: 40%;
+  background-color:gold;
+  animation-name: bannerSlide;
+  animation-duration: 2s;
+}
+@keyframes bannerSlide {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 40%;
+  }
+}
+
+.restartBtn {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  display: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.victoryBtn{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  display: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.formLine {
+  margin: 10px;
+  padding: 10px;
+  background-color: cornflowerblue;
+}
+img{
+  width:25px;
+  height:25px;
+}
+.up{
+  transform: rotate(90deg);  
+}
+.down{
+  transform: rotate(-90deg);
+}
+.right{
+  transform: rotate(180deg);
+}
+.rleft{
+  transform: rotate(0deg);
+}

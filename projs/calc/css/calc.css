@@ -1,0 +1,38 @@
+.numberDisplay{
+    background-color: rgba(189, 201, 201, 0.986);
+    width:30%;
+    margin-left: 35px;
+    height: 40px;
+    position: fixed;
+    margin-top: 30px;
+
+}
+.calculator{
+    background-color: darkcyan;
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 40%;
+    height: 450px;
+    border-radius: 30px;
+}
+.digits{
+    width: 25%;
+    height:200px;
+    position: fixed;
+    margin-top: 190px;
+    margin-left: 20px;
+}
+button{
+    width:40px;
+    height:30px;
+    margin:5px;
+}
+button #0{
+    width:60px;
+    margin-left: 40px;
+    position: fixed;
+}
+.numberDisplay{
+    text-align: center;
+    font-family: cursive;
+}

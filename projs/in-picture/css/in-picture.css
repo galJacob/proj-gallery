@@ -1,0 +1,13 @@
+img{
+    width: 500px;
+    height: 300px;
+ margin:auto;
+box-align: center;
+padding-bottom: 60px;
+position: absolute;
+}
+button{
+    height:30px;
+    width: 200px;
+    margin-top: 400px;
+}

@@ -1,0 +1,58 @@
+body {background-color: black; color:white}
+
+.cell {width:40px; height:40px;text-align: center}
+.cell img {width:25px; height:auto;margin: auto}
+.floor {background-color: gray}
+.wall {background-color: brown}
+p{padding-left: 300px; width:50%}
+button{margin-left: 300px;position: absolute;margin-top: 50px;border-radius: 30px;visibility: hidden;}
+.board{
+margin: auto;
+}
+
+.ball{
+    animation-name: ballSpinning;
+    animation: ballSpinning 2s linear infinite;  
+}
+@keyframes ballSpinning{
+0%{
+    transform: rotate(0deg);
+}
+100%{
+    transform: rotate(360deg);   
+}
+}
+.new-ball{
+     animation-name: ballApear;
+    animation-duration: 2s;   
+}
+
+@keyframes ballApear{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.new-move{
+    animation-name:moving;
+    animation-duration:2s;
+}
+@keyframes moving{
+    0%{
+        width:25px;
+         height:auto;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        width:25px; 
+        height:auto;
+    }
+}
+
+
+
+

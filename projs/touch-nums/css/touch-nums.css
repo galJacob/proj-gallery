@@ -1,0 +1,74 @@
+
+td{
+height: 50px;
+width:50px;
+border: 2px solid brown;
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+font-family: fantasy;
+background-color: #a2a5b4;
+cursor: pointer;
+border-radius: 20px;
+}
+.board{
+    margin:0 auto;  
+    border-spacing: 10px;  
+}
+
+body{
+    background-repeat: no-repeat; 
+    background-size: 100%;
+}
+.timer {
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 50%;
+background-color: #2e2e36;    
+    align-items: baseline;
+    border-radius: 30px;
+    border: 4px outset grey;
+    
+}
+button{
+    height:20px;
+    border-radius: 30px;
+    font-family: fantasy;
+background-color: #a2a5b4;    
+}
+button:hover{
+color:red;
+    cursor: pointer;
+}
+
+.time{
+position: relative;
+background-color: #2e2e36;
+margin: 0 auto;
+top:82px;
+width:0;
+left:150px;
+}
+*:not(button){
+    font-size: 20px;
+    font-family: fantasy;
+}
+.clickedCell{
+    animation-name: enlarge;
+    animation-duration: .5s;
+    background-color: #2e2e36;
+
+}
+@keyframes enlarge{
+    0%{
+transform: scale(auto,auto);
+    }
+    50%{
+        transform: scale(1.5,1.5);
+    }
+    100%{
+transform: scale(auto,auto);
+        
+    }
+}
