@@ -35,7 +35,7 @@ function createProjs() {
         id: 'chess',
         name: 'chess game',
         title: 'chess,thinking game',
-        desc: 'defeat the other player by check-mate',
+        desc: 'defeat the other player by check-mate him,for those who patience...',
         url: '<a href="projs/chess/index.html">link to game</a>',
         publishedAt: 12312121754312312,
         labels: ['thinking', 'strategy','board'],
@@ -58,7 +58,7 @@ function createProjs() {
         url: '<a href="projs/in-picture/in-picture.html">link to game</a>',
         publishedAt: 12312121754312312,
         labels: ['boring', 'nothing much to do'],
-        img: '<img class="img-fluid" src="projs/img/in-picture.png" '
+        img: '<img class="img-fluid" src="projs/img/in-picture.png"> '
     },
     ];
     return projs;

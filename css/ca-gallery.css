@@ -24,6 +24,9 @@ h6 {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
+h4{
+    color: white;
+}
 h5{
     text-align: center;
 }
@@ -35,6 +38,9 @@ section h2.section-heading {
     font-size: 70px;
     margin-top: 0;
     margin-bottom: 15px;
+}
+form{
+    width: 420px;
 }
 
 section h3.section-subheading {
@@ -91,7 +97,7 @@ body {
     position: fixed;
     height: 100%;
     z-index: 100000;
-    background: red;
+    background:grey;
     width: 30vw;
     left: -30vw;
     transition: all 0.3s ease;
@@ -290,7 +296,7 @@ header.masthead .intro-text {
     margin: 0 auto;
     padding: 25px;
     text-align: center;
-    background-color: white;
+    background-color: black;
 }
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
@@ -600,6 +606,7 @@ h5{
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
+    color: #423e3d;
 }
 .team-member p {
     margin-top: 0;
